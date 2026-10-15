@@ -1,0 +1,36 @@
+# Ключи и локальные настройки
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Окружения Python
+.venv/
+venv/
+env/
+
+# Кэш и результаты проверок
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Личные настройки IDE; общую конфигурацию запуска .run/ сохраняем
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+
+# Временные файлы и сборки
+*.log
+*.tmp
+*.zip
+work/
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
